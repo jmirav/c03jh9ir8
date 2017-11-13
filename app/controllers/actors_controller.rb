@@ -1,5 +1,5 @@
 class ActorsController < ApplicationController
-  def list
+  def index
     @actors = Actor.all
     # @actors_num = Actor.count
   end
